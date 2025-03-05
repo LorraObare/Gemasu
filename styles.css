@@ -296,7 +296,7 @@ header .btn {
 
 .experience__image {
   height: 100%;
-  background-image: url("assets/experience.png");
+  background-image: url("assets/Experience.jpg");
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -417,6 +417,31 @@ header .btn {
   font-weight: 600;
   color: var(--text-light);
 }
+
+.featured-work{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.featured-work__content{
+    padding: 10px;
+    text-align: center;
+    color: #000;
+}
+
+/*.featured-work:hover{
+   border: 1px solid lightgray;  
+}*/
+
+.featured-work img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    
+}
+
 
 .subscribe {
   padding-inline: 1rem;
