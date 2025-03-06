@@ -38,16 +38,7 @@
       <div class="header__content">
         <h1>Transforming Spaces with Professional Painting Solutions</h1>
       </div>
-      <div class="contact__details"></div>
-        <h2>Contact Us</h2>
-        <p>For inquiries, please reach out to us:</p>
-        <div class="contact__info">
-          <p><strong>Phone:</strong> +254-786461349 / 0715268011</p>
-          <p><strong>Email:</strong> <a href="mailto:lawrenceotieno637@gmail.com">lawrenceotieno637@gmail.com</a></p>
-          <p><strong>Address:</strong> Oginga Odinga Street, Kisumu, Harleys Building, 2nd Floor</p>
-        </div>
-        <button class="btn" onclick="window.location.href='mailto:lawrenceotieno637@gmail.com'">Email Us</button>
-      </div>
+    
     </header>
 
     <section class="service">
@@ -293,11 +284,96 @@
 </div>
 
 <div class="featured-work__item">
-    <a target="_blank" href="assets/Interior 8.jpg" title="View Project">
+    <a target="_blank" href="assets/Interior 8.jpg" title="View Project"></a>
     <img src="assets/Interior 8.jpg" alt="interior 8">
 
     <div class="featured-work__content">
       <p>View Project</p>
+</div>
+</div>
+</section>
+
+<section class="featured-work">
+  <div class="section__container featured-work" id="featured-work">
+    <div class="section__header">
+      <p>
+        We take pride in our work and are committed to delivering the best
+        results for our clients. Here are some of our featured projects.
+      </p>
+    
+    </div>
+      <div class="featured-work__item">
+      <a target="_blank" href="assets/Interior 1.jpg" title="View Project">
+      <img src="assets/Interior 1.jpg" alt="interior 1">
+
+      <div class="featured-work__content">
+        <p>View Project</p>
+  </div>
+
+  </div>
+
+  <div class="featured-work__item">
+      <a target="_blank" href="assets/Interior 2.jpg" title="View Project">
+      <img src="assets/Interior 2.jpg" alt="interior 2">
+
+      <div class="featured-work__content">
+        <p>View Project</p>
+  </div>
+
+  </div>
+
+  <div class="featured-work__item">
+      <a target="_blank" href="assets/interior-3.jpg" title="View Project">
+      <img src="assets/Interior 3.jpg" alt="interior 3">
+
+      <div class="featured-work__content">
+        <p>View Project</p>
+  </div>
+
+  </div>
+
+  <div class="featured-work__item">
+      <a target="_blank" href="assets/Interior 4.jpg" title="View Project">
+      <img src="assets/Interior 4.jpg" alt="interior 4">
+
+      <div class="featured-work__content">
+        <p>View Project</p>
+  </div>
+
+  </div>
+
+  <div class="featured-work__item">
+      <a target="_blank" href="assets/Interior 5.jpg" title="View Project">
+      <img src="assets/Interior 5.jpg" alt="interior 5">
+
+      <div class="featured-work__content">
+        <p>View Project</p>
+  </div>
+
+  </div>
+
+  <div class="featured-work__item">
+      <a target="_blank" href="assets/Interior 6.jpg" title="View Project">
+      <img src="assets/Interior 6.jpg" alt="interior 6">
+
+      <div class="featured-work__content">
+        <p>View Project</p>
+  </div>
+</div>
+<div class="featured-work__item">
+      <a target="_blank" href="assets/Interior 7.jpg" title="View Project">
+      <img src="assets/Interior 7.jpg" alt="interior 7">
+      <div class="featured-work__content">
+      <p>View Project</p>
+  </div>
+</div>
+
+<div class="featured-work__item">
+  <a target="_blank" href="assets/Interior 8.jpg" title="View Project"></a>
+  <img src="assets/Interior 8.jpg" alt="interior 8">
+
+  <div class="featured-work__content">
+    <p>View Project</p>
 </div>
 </div>
 </section>
@@ -320,16 +396,13 @@
   </div>
 
 
-</section>
-<section class="contact" id="contact"></section>
-  <h2 class="section__header">Talk to us Today!</h2>
-  <form action="/" method="post">
-    <input type="text" name="name" placeholder="Enter your name" required />
-    <input type="email" name="email" placeholder="Enter your email" required />
-    <textarea name="message" placeholder="Enter your message" required></textarea>
-    <button class="btn" type="submit">Send</button>
-  </form>
-</section>
+  <section class="email" id="contact">
+    <h2 class="section__header">Email<br />Talk To Us Directly</h2>
+    <form id="emailForm" onsubmit="sendEmail(event)">
+      <input type="email" id="userEmail" placeholder="Enter your email" required />
+      <button type="submit" class="btn">Email Here</button>
+    </form>
+  </section>
 
 <footer>
   <div class="section__container footer__container">
@@ -348,21 +421,19 @@
     </div>
     <div class="footer__col">
       <h4>OUR COMPANY</h4>
-      <ul class="footer__links">
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Our Services</a></li>
-      </ul>
     </div>
     <div class="footer__col">
       <h4>SUPPORT</h4>
-      <h5>Call us on</h5>
-      <h5>+254-786461349</h5>
-      <h5>0715268011</h5>
       <ul class="footer__links">
-        <li><a href="#">Contact Us</a></li>
         <li><a href="mailto:lawrenceotieno637@gmail.com" title="Click Here To send an Email">Email us</a></li>
       </ul>
-    </div>
+      <div class="footer__phone__number">
+       
+        <p>Call us: +1234567890/</p>
+      
+
+      </div>
+      </div>
     <div class="footer__col">
       <h4>Location</h4>
       <div class="footer__property__detail">

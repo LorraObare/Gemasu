@@ -80,11 +80,22 @@ img {
 a {
   text-decoration: none;
   transition: 0.3s;
+ 
 }
 
 ul {
   list-style: none;
+  font-size: 20px;
 }
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid lightgrey;
+	transition: 0.5s ease;
+}
+
 
 html,
 body {
@@ -100,6 +111,7 @@ nav {
   isolation: isolate;
   width: 100%;
   z-index: 9;
+
 }
 
 .nav__header {
@@ -145,6 +157,7 @@ nav {
   font-weight: 500;
   color: var(--text-dark);
   white-space: nowrap;
+  
 }
 
 header {
@@ -176,7 +189,7 @@ header {
   text-align: center;
 }
 
-header form {
+/*header form {
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -231,6 +244,13 @@ header input {
 header .btn {
   padding: 0.75rem;
   font-size: 1.5rem;
+}*/
+
+.contact__details{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
 }
 
 .service {
@@ -457,14 +477,14 @@ header .btn {
   display: block;
 }
 
-.subscribe {
+.email {
   padding-inline: 1rem;
   padding-block: 5rem 2rem;
   margin-bottom: 5rem;
   background-color: var(--primary-color);
 }
 
-.subscribe form {
+.email form {
   width: 100%;
   max-width: 600px;
   margin-inline: auto;
@@ -475,7 +495,7 @@ header .btn {
   box-shadow: 0px 10px 50px var(--primary-color);
 }
 
-.subscribe input {
+.email input {
   width: 100%;
   padding-inline: 1rem;
   font-display: 1rem;
@@ -485,7 +505,7 @@ header .btn {
   border: none;
 }
 
-.subscribe .btn {
+.email .btn {
   padding: 1.5rem 2rem;
 }
 

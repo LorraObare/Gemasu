@@ -65,3 +65,19 @@ ScrollReveal().reveal(".subscribe form", {
   ...scrollRevealOption,
   delay: 500,
 });
+
+function sendEmail(event) {
+  event.preventDefault();
+  
+  // Get the user's email
+  const userEmail = document.getElementById('userEmail').value;
+  
+  // Company email address
+  const companyEmail = "lawrenceotieno637@gmail.com"; // Replace with your actual email
+  
+  // Create mailto link with user's email in the body
+  const mailtoLink = `mailto:${companyEmail}?subject=Website Inquiry&body=My email address is: ${userEmail}`;
+  
+  // Open email client
+  window.location.href = mailtoLink;
+}
