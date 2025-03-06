@@ -733,6 +733,11 @@ header .btn {
   }
 }
 
+iframe{
+  width: 350%;
+  height: 300px;
+}
+
 @media (width > 1024px) {
   .service__grid {
     gap: 2rem;
