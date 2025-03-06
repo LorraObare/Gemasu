@@ -193,6 +193,20 @@ header form {
   box-shadow: 0px 5px 50px var(--primary-color);
 }
 
+header form .btn {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  color: var(--white);
+  background-color: var(--text-dark);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+header form .btn:hover {
+  background-color: var(--text-light);
+}
+
 header .input__group {
   display: grid;
   gap: 0.5rem;
