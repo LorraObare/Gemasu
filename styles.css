@@ -359,15 +359,15 @@ header .btn {
   min-width: 425px;
 }
 
-.products__card {
+.features__card {
   box-shadow: 0px 5px 50px var(--primary-color);
 }
 
-.products__details {
+.features__details {
   padding: 1rem;
 }
 
-.products__details__header {
+.features__details__header {
   margin-bottom: 1rem;
   display: flex;
   align-items: center;
@@ -376,26 +376,26 @@ header .btn {
   flex-wrap: wrap;
 }
 
-.products__details__header h4 {
+.features__details__header h4 {
   font-size: 1.3rem;
   font-weight: 600;
   color: var(--text-dark);
 }
 
-.products__details__header h5 {
+.features__details__header h5 {
   font-size: 1.2rem;
   font-weight: 500;
   color: var(--text-dark);
 }
 
-.products__amenities {
+.features__amenities {
   margin-bottom: 1rem;
   display: flex;
   align-items: center;
   gap: 2rem;
 }
 
-.products__amenities > div {
+.features__amenities > div {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -404,12 +404,12 @@ header .btn {
   color: var(--text-light);
 }
 
-.products__amenities span {
+.features__amenities span {
   font-size: 1.2rem;
   color: var(--text-dark);
 }
 
-.products__location {
+.features__location {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -418,30 +418,30 @@ header .btn {
   color: var(--text-light);
 }
 
-.featured-work{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+.featured-work {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
 }
 
-.featured-work__content{
-    padding: 10px;
-    text-align: center;
-    color: #000;
+.featured-work__item {
+  flex: 1 1 calc(25% - 15px);
+  box-sizing: border-box;
+  max-width: calc(25% - 15px);
 }
 
-/*.featured-work:hover{
-   border: 1px solid lightgray;  
-}*/
-
-.featured-work img{
-    width: 200px;
-    height: 300px;
-    object-fit: cover;
-    display: block;
-    
+.featured-work__content {
+  padding: 10px;
+  text-align: center;
+  color: #000;
 }
 
+.featured-work img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
 
 .subscribe {
   padding-inline: 1rem;
